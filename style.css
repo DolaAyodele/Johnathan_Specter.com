@@ -3,13 +3,15 @@
     margin: 0;
     padding: 0;
     color: whitesmoke;
+}
+body{
     background-color: black;
 }
 .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 50px 40px 50px;
+    margin: 20px 70px 40px 70px;
 }
 .menu{
     list-style: none;
@@ -28,4 +30,37 @@ button a{
     text-decoration: none;
     color: black;
     border-radius: 2px;
+}
+.logos ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 20px 70px 40px 70px;
+}
+.logos ul li{
+    text-decoration: none;
+}
+.pic-o{
+    display: flex;
+    margin: 20px 70px 40px 70px;
+}
+.right-pic{
+    margin: 0 60px;
+}
+.grey{
+    background-color: rgb(63, 61, 61);
+}
+footer{
+    background-color: rgb(63, 61, 61);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer ul li{
+    margin: 0 5px;
 }
