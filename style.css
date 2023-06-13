@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    background-color: black;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px 40px 50px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 0 10px;
+}
+.menu li a{
+    text-decoration: none;
+}
+button a{
+    background-color: rgb(245, 220, 0);
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+}
