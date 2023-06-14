@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Prata&display=swap');
+
+/* fonts 
+body: font-family: 'Inter', sans-serif;
+headings: font-family: 'Prata', serif;
+*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -31,6 +38,20 @@ button a{
     color: black;
     border-radius: 2px;
 }
+.top{
+    margin: 20px 70px 40px 70px;
+}
+.top h3{
+    font-family: 'Prata', serif;
+    max-width: 20ch;
+    font-size: 30px;
+}
+.top p{
+    font-size: xx-small;
+    font-family: 'Inter', sans-serif;
+    max-width: 60ch;
+    font-size: 10px;
+}
 .logos ul{
     display: flex;
     align-items: center;
@@ -41,15 +62,29 @@ button a{
 .logos ul li{
     text-decoration: none;
 }
+.logos ul li img{
+    width: 60px;
+}
 .pic-o{
     display: flex;
     margin: 20px 70px 40px 70px;
+    width: 60px;
+}
+.pic-o div p{
+    max-width: 50ch;
+    font-weight: 10;
+    margin-top: 15px;
 }
 .right-pic{
     margin: 0 60px;
 }
 .grey{
     background-color: rgb(63, 61, 61);
+    display: flex;
+}
+.grey div{
+    margin: 20px 70px 40px 70px;
+    max-width: 35ch;
 }
 footer{
     background-color: rgb(63, 61, 61);
