@@ -27,11 +27,12 @@ body{
 .menu li{
     list-style: none;
     margin: 0 10px;
+    font-family: 'Inter', sans-serif;
 }
 .menu li a{
     text-decoration: none;
 }
-button a{
+.click a{
     background-color: rgb(245, 220, 0);
     padding: 10px;
     text-decoration: none;
@@ -51,6 +52,8 @@ button a{
     font-family: 'Inter', sans-serif;
     max-width: 60ch;
     font-size: 10px;
+    word-spacing: 1px;
+    line-height: 15px;
 }
 .logos ul{
     display: flex;
@@ -63,38 +66,98 @@ button a{
     text-decoration: none;
 }
 .logos ul li img{
-    width: 60px;
+    width: 80px;
 }
 .pic-o{
     display: flex;
     margin: 20px 70px 40px 70px;
-    width: 60px;
+}
+.pic-o div h3{
+    font-family: 'Prata', serif;
+    margin-top: 10px;
 }
 .pic-o div p{
+    font-family: 'Inter', sans-serif;
     max-width: 50ch;
-    font-weight: 10;
-    margin-top: 15px;
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 18px;
 }
 .right-pic{
     margin: 0 60px;
 }
-.grey{
-    background-color: rgb(63, 61, 61);
-    display: flex;
-}
-.grey div{
-    margin: 20px 70px 40px 70px;
-    max-width: 35ch;
-}
-footer{
+.grey .main-div{
     background-color: rgb(63, 61, 61);
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+/*.grey div{
+    
+}*/
+.grey div h2{
+    font-family: 'Prata', serif;
+    max-width: 20ch;
+    margin: 30px 0 10px 0;
+}
+.grey div p{
+    font-family: 'Inter', sans-serif;
+    max
+}
+/*last section for interest*/
+/*.top h3{
+    font-family: 'Prata', serif;
+    max-width: 20ch;
+    font-size: 30px;
+}
+.top p{
+    font-size: xx-small;
+    font-family: 'Inter', sans-serif;
+    max-width: 60ch;
+    font-size: 10px;
+}*/
+.buttom{
+    margin: 45px 70px 40px 70px;
+}
+.buttom h3{
+    font-size: 25px;
+    font-family: 'Prata', serif;
+}
+.buttom p{
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    max-width: 48ch;
+   
+    line-height: 18px;
+}
+.buttom .but-ton{
+    background-color: rgb(245, 220, 0);
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    margin-top: 18px;
+}
+.buttom .but-ton a{
+    text-decoration: none;
+    color: black;
+}
+
+/*footer section*/
+footer{
+    background-color: rgb(63, 61, 61);
+}
+.footer{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin: 20px 70px 40px 70px;
+    padding: 10px;
 }
 footer ul{
     display: flex;
     list-style: none;
+    cursor: pointer;
 }
 footer ul li{
     margin: 0 5px;
